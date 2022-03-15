@@ -1,0 +1,153 @@
+.Main_Menu___{
+    width: 100%;
+    max-width: 100%;
+    background-color: #25938a;
+    display:flex;
+    margin-top: -30px;
+}
+.Main_Menu___ ul li a{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 15px;
+    display: inline;
+    color:#fff;
+} 
+.Main_Menu___ ul li {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 15px;
+    display: inline;
+    color:#fff;
+} 
+.Main_Menu___ ul li  :hover{
+    text-decoration: underline;
+} 
+
+
+@media (max-width: 800px) {
+    .Main_Menu___{
+     display:none;
+    }
+}
+.SectionContaineeer{
+    width: 100%;
+    background-color: #25938a;
+    max-width: 100%;
+    display:flex;
+    margin-top:-3px;
+}
+@media (max-width: 800px){
+   .SectionContaineeer {
+    width: 100%;
+    display:none;
+   }
+}
+.banner_aa{
+    background-image: url("../../assets/ferramentas_bgg.jpg");
+    width: 100%;
+    height: 250px;
+ 
+
+    
+}
+
+@media (min-width: 700px) {
+    .banner_aa{
+        background-image: url("../../assets/ferramentas_bg.jpg");
+        height: 400px;
+    }
+  
+   }
+
+.Section_Ferramentas{
+    width: 100%;
+    display:flex;  
+}
+@media (max-width: 800px) {
+    .Section_Ferramentas{
+        width:100%;
+        display:block;
+    }
+ 
+}
+.Logo_lg{
+    width: 25%;
+    padding:5%;
+}
+
+  @media (max-width: 800px) {
+      .Logo_lg{
+       display: none;
+      } 
+    
+  }
+
+ .Descrition{
+    width: 70%;   
+ }
+ @media (max-width: 800px) {
+  .Descrition{
+    display: none;  
+  } 
+ } 
+ 
+ .Descrition_min{
+     display: none;
+ }
+ @media (max-width: 800px) {
+    .Descrition_min{
+      width: 100%;
+      text-align: justify;
+      display: block;
+   
+    } 
+   } 
+.Logo_lg_min{
+    display: none;
+}
+@media (max-width: 800px) {
+    .Logo_lg_min{
+      width: 100%;
+      display: flex;
+      margin-top: 30px;
+     justify-content: center;
+    } 
+   } 
+ .Descrition h2 {
+    color: #25938a;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top:30px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+ }
+ .Descrition p {
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    position: relative;
+    color: #000;
+    margin: 0;
+ }
+ 
+ .Descrition_min h2 {
+    color: #25938a;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-top:30px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+ }
+ .Descrition_min p {
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    position: relative;
+    color: #000;
+    margin: 0;
+ }
+   

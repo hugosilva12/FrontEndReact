@@ -1,0 +1,316 @@
+.Footer_Background{
+    width:100%;
+}
+.Footer_Background h1{
+    font-size: 52px;
+    color: #fff;
+    margin-left:13%;
+    font-weight: 700;
+    margin-top:-300px;
+    margin-bottom:287px;
+    line-height: 1.4;
+}
+
+
+.Section_paragraph{
+    width:80%;  
+}
+.Section_paragraph h1 {
+    font-size: 13px!important;
+    line-height: 20px!important;
+    color: #000!important;
+    font-weight:300!important;
+    display: inline-block;
+    text-transform: none;
+    margin-left: -29px;
+    margin-top:15px;
+    position: relative; 
+}
+@media (max-width: 800px) {
+    .Section_paragraph h1{
+        margin-left:0px;
+    }
+ 
+}
+@media (max-width: 800px) {
+    .Section_paragraph{
+        margin-left:-4px;
+    }
+ 
+}
+
+.Section_title{
+    width:90%;
+    margin-bottom:20px;
+    margin-left:70px;   
+}
+.Section_titlee{
+    width:100%;
+    height: 200px;
+    margin-top:-20px;
+    background:#25938a;
+}
+
+@media (max-width: 800px) {
+    .Section_title{
+        width:100%;
+        margin-left:0px;
+        text-align:center;
+    }
+   
+ }
+.Style_of_Title{
+    padding:50px;
+}
+
+
+@media (max-width: 1000px) {
+    .Style_of_Title{
+        padding: 0px;
+        padding-top:50px;
+        width: 80%;
+    }
+
+}
+.Style_of_Title h1{
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+
+.Section_title  h2{
+    color: #000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    margin-top:20px;
+    text-transform: uppercase;
+}
+
+.Descricao_Parceiros{
+    width:100%;
+    text-align:justify;
+    margin-left:25px;
+    margin-bottom:86px;  
+}
+.Descricao_Parceiros p{
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #000!important;
+    font-weight:300!important;
+    display: inline-block;
+    text-transform: none;
+    margin-top: 0px;
+}
+.Descricao_Parceiros h2{
+    color: #25938a;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.Contact_icons{
+    width:100%;
+    display:flex;
+}
+.Form_Cont{
+    height: 450px;
+}
+@media (max-width: 800px) {
+    .Form_Cont{
+       height: auto;
+    }
+ 
+}
+.Descricao_Parceiros  input[type=submit] {
+    display: inline-block;
+    background: #25938a;
+    border: 1px solid #25938a;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 0;
+    width: auto;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 12px;
+}
+.Contact_icons{
+    width:100%;
+    display:flex;
+}
+.Icons_layout{
+    margin-top:3%;
+    width:20%;
+}
+@media (max-width: 800px) {
+    .Icons_layout{
+        width:10%;
+    }
+ 
+}
+.bannerra{
+    background-image: url("../../assets/agenda_bb.jpg");
+    width: 100%;
+    height: 250px;
+ 
+
+    
+}
+
+@media (min-width: 700px) {
+    .bannerra{
+        background-image: url("../../assets/agenda_bbb.jpg");
+        height: 400px;
+    }
+  
+   }
+.Section_Description  h1  {
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #000!important;
+    font-weight:300!important;
+    display: inline-block;
+    text-transform: none;
+    position: relative;
+}
+.Botton_Submit  a{
+    display: inline-block;
+    background: #25938a;
+    border: 1px solid #25938a;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 0;
+    width: auto;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    text-decoration: none;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 12px;
+}
+.Botton_Submit{
+    margin-bottom:15px;
+}
+
+.Section_Img{
+    width:50%;
+    padding:30px;
+    display:block;  
+}
+.Section_Img  h5 {
+    font-size:24px;
+}
+
+   @media (max-width: 1000px) {
+    .Section_Img{
+        width:90%;
+        display:block;
+        padding:15px;
+    }
+  
+}
+
+.Section_description{
+    width:50%;   
+}
+@media (max-width: 1000px) {
+   .Section_description{
+    width:90%;
+    display:block;
+    padding:15px;
+   }
+ 
+}
+.Section_description p {
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #000!important;
+    font-weight:300!important;
+    display: inline-block;
+    text-transform: none;
+    padding-left: 1px;
+    margin-top:22px;
+    position: relative;  
+}
+ 
+.Section_Data_Location{
+    width:100%;
+   display:flex;   
+}
+.Section_Calendar_Icon{
+    width:7%;
+    margin-top:38px;    
+}
+.Style_Data_Location{
+    width:80%; 
+}
+.Style_Data_Location p {
+    margin-top:40px;
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #000!important;
+    font-weight: 300!important;
+    display: inline-block;
+    text-transform: none;
+    padding-left: 21px;
+    position: relative; 
+}
+.Style_Data_Location h5 {
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #000!important;
+    padding-bottom: 5px;
+    font-weight: 300!important;
+    display: inline-block;
+    text-transform: none;
+    padding-left: 21px;
+    position: relative;
+    padding-bottom: 20px;  
+  
+
+}
+.Section_Location_Icon{
+    width:7%;
+   margin-top:10px;  
+}
+.Description_butoon{
+    width:100%;
+    display:block;  
+}
+.Description_butoon p {
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #000!important;
+    font-weight:300!important;
+    display: inline-block;
+    text-transform: none;
+    position: relative;   
+}
+.Description_butoon a{
+    display: inline-block;
+    background: #25938a;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #25938a;
+}
+.Description_butoon a :hover{
+    color:#fff;
+}
+  

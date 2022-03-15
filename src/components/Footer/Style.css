@@ -1,0 +1,326 @@
+.SiteFooterInner{
+  align-items: baseline;
+
+  justify-content: space-between;
+  margin-left:50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 20px;
+
+  background-color:#000;  
+}
+.Rows_{
+    margin-left:3%;
+    width:25%;
+    margin-top:20px;
+ 
+  }
+  .Rows_First{
+    margin-left:10px;
+    width:25%;
+    margin-top:20px;
+ 
+  }
+
+.Title_color{
+    color:#25938a;
+    
+    font-size: 13px;
+    text-transform:uppercase;
+}
+.Copyright{
+    font-weight: 600;
+    margin: 3%;
+    margin-top: 15px;
+    font-size: 13px;
+    text-transform:uppercase;
+    color: #fff;
+   
+}
+.Div_socialicons{
+    margin-left:1%;
+   
+}
+.Div_socialicons a {
+   
+    margin-left:4%;
+    margin-top:2%;
+}
+.Div_socialicons  :hover  {
+    color: #25938a;
+    cursor: pointer;
+}
+  
+@media (max-width: 700px) {
+  .Div_socialicons a {
+   margin-left:0px;
+   margin-right: 10px;
+  }
+  .Div_socialicons  {
+    margin-left:0px;
+    margin-top: 10px;
+    
+   }
+
+}
+
+  @media (min-width: 700px) {
+      .Div_socialicons{
+        display: flex;
+      }
+   
+  }
+
+  @media (min-width: 700px) {
+      .Copyright{
+        font-weight: 700;
+      }
+   
+  }
+.Credits{
+
+}
+
+@media (min-width: 700px) {
+    .Credits{
+        display: flex;
+        width:100%;
+        
+    }
+  }
+  @media (max-width: 700px) {
+     .Rows_{
+        margin-top:19px;
+        width:100%;
+        margin-left:0px;
+        text-align:left;
+    }
+  
+  }
+  @media (max-width: 700px) {
+    .Rows_First{
+       margin-top:19px;
+       margin-left: 0px;
+       width:100%;
+       text-align:center;
+   }
+ 
+ }
+ @media (max-width: 700px) {
+  .Rows_First_View{
+     display: none;
+ }
+
+}
+@media (min-width: 700px) {
+  .Rows_First_View_drop{
+    display: none;
+ }
+}
+
+
+  @media (max-width: 500px) {
+    .Rows_{
+        margin-left:0%;
+    } 
+  
+  }
+.Copyright_fone{
+    margin-left:30px;
+    margin-top:-20px;
+    color: #fff;
+    font-size: 13px;  
+} 
+.Copyright_img{
+  margin-top:15px;
+
+}
+
+@media (min-width: 700px) {
+    .Copyright_fone{
+        font-weight: 700;
+    }
+ 
+}
+@media (max-width: 500px) {
+    .Copyright_fone{
+        margin-top:5%;
+    }
+
+}
+.Input_form{
+    margin-left:1%;  
+}
+.Input_form input[type=text]{
+    width:100%;
+    border: 3px;
+    color:#fff;
+    background: transparent;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 20px;
+}
+.Input_form ::placeholder{
+  width:100%;
+  border: 3px;
+  color:#fff;
+  background: transparent;
+
+}
+
+
+.Input_form input[type=submit] {
+    display: inline-block;
+  background: #25938a;
+  border: 1px solid #25938a;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 0;
+  width: auto;
+  text-transform: uppercase;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.Section_Copyright{
+  padding-bottom: 10px;
+}
+
+  
+@media (min-width: 700px) {
+    
+    .Section_Copyright{
+        display: flex;
+        width:100%;
+    }
+ 
+ }
+ .Cop_right{
+    width:50%;
+ }
+ @media (max-width: 700px) {
+    .Cop_right{
+        width:100%;
+      
+        float:none;
+    }
+  
+  }
+  
+  .Cop_right ul{
+    list-style: none;
+    margin-top:-80px;
+    padding: 0;
+    display: inline;
+ }
+
+ .Cop_right ul li{
+    list-style: none;
+    margin-top:-80px;
+    margin-left:20px;
+    display: inline;
+    margin-bottom: 10px;
+ }
+ .Cop_right ul li a{
+    display: inline;
+  padding-left: 0px;
+  color: #fff;
+  font-size: 12px;
+ }
+ .Cop_right  :hover{
+    text-decoration: underline;
+ }
+ .Cop_right  p{
+    margin: 3%;
+    color: #fff;
+    font-size: 12px;
+    text-transform: none;
+ }
+ .Link_Basicamente {
+    width:50%;
+ }
+ @media (max-width: 700px) {
+     .Link_Basicamente{
+        width:100%;
+        text-align:center;
+        float:none;
+     }
+   
+  }
+.Link_Basicamente p a {
+    float:right;
+    margin: 3%;
+    color:#fff;
+    font-size: 12px;
+    text-transform: none;
+   
+ }
+ @media (max-width: 700px) {
+     .Link_Basicamente{
+        width:100%;
+        text-align:center;
+        float:none;
+     }
+ 
+  }
+  .dropbtn {
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+ 
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #FFF;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background-color: #000;
+    text-align: left;
+    font-size: 14px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    text-align: left;
+    /*background-color: #3e8e41;*/
+  }
+
+
+
+

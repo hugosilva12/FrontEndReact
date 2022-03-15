@@ -1,0 +1,126 @@
+.SectionContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color:#fff;
+    display:flex;
+}
+
+
+@media (max-width: 800px) {
+    .SectionContainer{
+        width:90%;
+        display:block;
+        padding:15px;
+    }
+
+  }
+ .Section_Contact{
+    width:50%;
+    display:block;  
+ } 
+ .Section_Contact h5 {
+    font-size:24px;
+ } 
+
+  @media (max-width: 800px) {
+    .Section_Contact{
+        width:100%;
+        display:block;
+    }
+ 
+   
+ }
+ .Section_Contact  p b  {
+    width:50%;
+    display:block;  
+ } 
+ .Section_Contact  p span  {
+    width:50%;
+    display:block;  
+ }    
+ .Section_Contact  input[type=text]   {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+ } 
+ .Section_Contact    input[type=submit]  {
+    display: inline-block;
+    background: #25938a;
+    border: 1px solid #25938a;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 0;
+    width: auto;
+    text-transform: uppercase;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer;
+    font-size: 12px;
+ }  
+ .Section_Contact    input[type=email]   {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+ }  
+ .Section_Contact   textarea   {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #ddd;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-left: 0px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-bottom: 20px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+ }  
+
+
+.SocialNetwork_icons b {
+    margin-left:10px;
+}
+
+
+.banner_a_a_a{
+   background-image: url("../../assets/contactos_moobile.jpg");
+   width: 100%;
+   height: 250px;
+
+
+   
+}
+@media (min-width: 700px) {
+   .banner_a_a_a{
+       background-image: url("../../assets/contactos_mobile.jpg");
+       height: 400px;
+   }
+ 
+}
