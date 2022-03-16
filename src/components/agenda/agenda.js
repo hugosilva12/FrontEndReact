@@ -26,7 +26,7 @@ export default class Agenda extends Component {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Basic YWRtLXRhbjA5MzI6R21wUFBhN295TUdZQ1BrRnVN'
+          'Authorization': 'Basic xxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         },
   
       }

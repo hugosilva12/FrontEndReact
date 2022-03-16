@@ -38,7 +38,7 @@ export default class Dica extends Component {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Basic YWRtLXRhbjA5MzI6R21wUFBhN295TUdZQ1BrRnVN'
+        'Authorization': 'Basic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       },
 
     }
@@ -52,7 +52,7 @@ export default class Dica extends Component {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Basic YWRtLXRhbjA5MzI6R21wUFBhN295TUdZQ1BrRnVN'
+        'Authorization': 'Basic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       },
 
     }
@@ -65,7 +65,7 @@ export default class Dica extends Component {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Basic YWRtLXRhbjA5MzI6R21wUFBhN295TUdZQ1BrRnVN'
+        'Authorization': 'Basic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       },
 
     }
@@ -78,7 +78,7 @@ export default class Dica extends Component {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Basic YWRtLXRhbjA5MzI6R21wUFBhN295TUdZQ1BrRnVN'
+        'Authorization': 'Basic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       },
 
     }
@@ -93,7 +93,7 @@ export default class Dica extends Component {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Basic YWRtLXRhbjA5MzI6R21wUFBhN295TUdZQ1BrRnVN'
+        'Authorization': 'Basic xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
       },
 
     }
